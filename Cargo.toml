@@ -1,0 +1,12 @@
+[package]
+name = "wamp-client"
+version = "0.1.0"
+license = "MIT"
+description = "WAMP Client side library."
+readme = "./README.md"
+repository = "https://github.com/wamp-rs/wamp-client"
+exclude = ["./.vscode"]
+documentation = "https://docs.rs/wamp-client/latest/wamp_client/"
+
+[dependencies]
+wamp-core = "0.1.2"
